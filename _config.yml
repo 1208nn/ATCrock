@@ -101,4 +101,6 @@ theme: arknights
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/1208nn/ATCrock.git
+  branch: gh-pages
