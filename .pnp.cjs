@@ -30,6 +30,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["hexo", "npm:8.0.0"],\
           ["hexo-browsersync", "npm:0.3.0"],\
+          ["hexo-cli", "npm:4.3.2"],\
+          ["hexo-deployer-git", "npm:4.0.0"],\
           ["hexo-generator-archive", "npm:2.0.0"],\
           ["hexo-generator-category", "npm:2.0.0"],\
           ["hexo-generator-index", "npm:4.0.0"],\
@@ -40,7 +42,9 @@ const RAW_RUNTIME_STATE =
           ["hexo-renderer-stylus", "npm:3.0.1"],\
           ["hexo-server", "npm:3.0.0"],\
           ["hexo-site", "workspace:."],\
-          ["hexo-theme-landscape", "npm:1.1.0"]\
+          ["hexo-theme-landscape", "npm:1.1.0"],\
+          ["hexo-util", "npm:3.3.0"],\
+          ["picocolors", "npm:1.1.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1185,6 +1189,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["dom-serializer", [\
+      ["npm:1.4.1", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/dom-serializer-npm-1.4.1-ebb24349c1-10c0.zip/node_modules/dom-serializer/",\
+        "packageDependencies": [\
+          ["dom-serializer", "npm:1.4.1"],\
+          ["domelementtype", "npm:2.3.0"],\
+          ["domhandler", "npm:4.3.1"],\
+          ["entities", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:2.0.0", {\
         "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/dom-serializer-npm-2.0.0-378ebc7200-10c0.zip/node_modules/dom-serializer/",\
         "packageDependencies": [\
@@ -1206,6 +1220,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["domhandler", [\
+      ["npm:4.3.1", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/domhandler-npm-4.3.1-493539c1ca-10c0.zip/node_modules/domhandler/",\
+        "packageDependencies": [\
+          ["domelementtype", "npm:2.3.0"],\
+          ["domhandler", "npm:4.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:5.0.3", {\
         "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/domhandler-npm-5.0.3-3ede73dc10-10c0.zip/node_modules/domhandler/",\
         "packageDependencies": [\
@@ -1226,6 +1248,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["domutils", [\
+      ["npm:2.8.0", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/domutils-npm-2.8.0-0325139e5c-10c0.zip/node_modules/domutils/",\
+        "packageDependencies": [\
+          ["dom-serializer", "npm:1.4.1"],\
+          ["domelementtype", "npm:2.3.0"],\
+          ["domhandler", "npm:4.3.1"],\
+          ["domutils", "npm:2.8.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:3.2.2", {\
         "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/domutils-npm-3.2.2-290180a284-10c0.zip/node_modules/domutils/",\
         "packageDependencies": [\
@@ -1381,6 +1413,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["entities", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/entities-npm-2.2.0-0fc8d5b2f7-10c0.zip/node_modules/entities/",\
+        "packageDependencies": [\
+          ["entities", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/entities-npm-3.0.1-21eeb201ba-10c0.zip/node_modules/entities/",\
+        "packageDependencies": [\
+          ["entities", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:4.5.0", {\
         "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/entities-npm-4.5.0-7cdb83b832-10c0.zip/node_modules/entities/",\
         "packageDependencies": [\
@@ -1871,7 +1917,7 @@ const RAW_RUNTIME_STATE =
           ["moize", "npm:6.1.6"],\
           ["moment", "npm:2.30.1"],\
           ["moment-timezone", "npm:0.5.48"],\
-          ["nunjucks", "virtual:ce3afd37351f5276854d63a3f386f66e86c3319ecb6d392e56610b37ecd270be8074a40bec02b0ae48bb0d6462094e8bfe73c851ad77742c1d483ea37b5a222b#npm:3.2.4"],\
+          ["nunjucks", "virtual:8250be04019bfc40f66b588f383e355e1a71108d355102f8c16c195569675db3b0a3263337576f0667b60a07e531bd3235004aa43a2ea06409a4ad2bad41d7d7#npm:3.2.4"],\
           ["picocolors", "npm:1.1.1"],\
           ["pretty-hrtime", "npm:1.0.3"],\
           ["strip-ansi", "npm:7.1.2"],\
@@ -1908,6 +1954,21 @@ const RAW_RUNTIME_STATE =
           ["picocolors", "npm:1.1.1"],\
           ["resolve", "patch:resolve@npm%3A1.22.11#optional!builtin<compat/resolve>::version=1.22.11&hash=c3c19d"],\
           ["tildify", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["hexo-deployer-git", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/hexo-deployer-git-npm-4.0.0-8250be0401-10c0.zip/node_modules/hexo-deployer-git/",\
+        "packageDependencies": [\
+          ["bluebird", "npm:3.7.2"],\
+          ["hexo-deployer-git", "npm:4.0.0"],\
+          ["hexo-fs", "npm:4.1.3"],\
+          ["hexo-util", "npm:2.7.0"],\
+          ["luxon", "npm:3.7.2"],\
+          ["nunjucks", "virtual:8250be04019bfc40f66b588f383e355e1a71108d355102f8c16c195569675db3b0a3263337576f0667b60a07e531bd3235004aa43a2ea06409a4ad2bad41d7d7#npm:3.2.4"],\
+          ["picocolors", "npm:1.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2082,6 +2143,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["hexo", "npm:8.0.0"],\
           ["hexo-browsersync", "npm:0.3.0"],\
+          ["hexo-cli", "npm:4.3.2"],\
+          ["hexo-deployer-git", "npm:4.0.0"],\
           ["hexo-generator-archive", "npm:2.0.0"],\
           ["hexo-generator-category", "npm:2.0.0"],\
           ["hexo-generator-index", "npm:4.0.0"],\
@@ -2092,7 +2155,9 @@ const RAW_RUNTIME_STATE =
           ["hexo-renderer-stylus", "npm:3.0.1"],\
           ["hexo-server", "npm:3.0.0"],\
           ["hexo-site", "workspace:."],\
-          ["hexo-theme-landscape", "npm:1.1.0"]\
+          ["hexo-theme-landscape", "npm:1.1.0"],\
+          ["hexo-util", "npm:3.3.0"],\
+          ["picocolors", "npm:1.1.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -2107,6 +2172,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["hexo-util", [\
+      ["npm:2.7.0", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/hexo-util-npm-2.7.0-8b30e0e568-10c0.zip/node_modules/hexo-util/",\
+        "packageDependencies": [\
+          ["bluebird", "npm:3.7.2"],\
+          ["camel-case", "npm:4.1.2"],\
+          ["cross-spawn", "npm:7.0.6"],\
+          ["deepmerge", "npm:4.3.1"],\
+          ["hexo-util", "npm:2.7.0"],\
+          ["highlight.js", "npm:11.11.1"],\
+          ["htmlparser2", "npm:7.2.0"],\
+          ["prismjs", "npm:1.30.0"],\
+          ["strip-indent", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:3.3.0", {\
         "packageLocation": "./.yarn/unplugged/hexo-util-npm-3.3.0-4a838986df/node_modules/hexo-util/",\
         "packageDependencies": [\
@@ -2142,6 +2222,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["htmlparser2", [\
+      ["npm:7.2.0", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/htmlparser2-npm-7.2.0-ec7c96986f-10c0.zip/node_modules/htmlparser2/",\
+        "packageDependencies": [\
+          ["domelementtype", "npm:2.3.0"],\
+          ["domhandler", "npm:4.3.1"],\
+          ["domutils", "npm:2.8.0"],\
+          ["entities", "npm:3.0.1"],\
+          ["htmlparser2", "npm:7.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:9.1.0", {\
         "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/htmlparser2-npm-9.1.0-5ef8394060-10c0.zip/node_modules/htmlparser2/",\
         "packageDependencies": [\
@@ -2651,6 +2742,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["luxon", [\
+      ["npm:3.7.2", {\
+        "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/luxon-npm-3.7.2-f37dcfe6a7-10c0.zip/node_modules/luxon/",\
+        "packageDependencies": [\
+          ["luxon", "npm:3.7.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["make-fetch-happen", [\
       ["npm:14.0.3", {\
         "packageLocation": "../../C:/Users/62787/AppData/Local/Yarn/Berry/cache/make-fetch-happen-npm-14.0.3-23b30e8691-10c0.zip/node_modules/make-fetch-happen/",\
@@ -3069,15 +3169,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:ce3afd37351f5276854d63a3f386f66e86c3319ecb6d392e56610b37ecd270be8074a40bec02b0ae48bb0d6462094e8bfe73c851ad77742c1d483ea37b5a222b#npm:3.2.4", {\
-        "packageLocation": "./.yarn/__virtual__/nunjucks-virtual-b0cc949c35/3/C:/Users/62787/AppData/Local/Yarn/Berry/cache/nunjucks-npm-3.2.4-c2cdc53bf5-10c0.zip/node_modules/nunjucks/",\
+      ["virtual:8250be04019bfc40f66b588f383e355e1a71108d355102f8c16c195569675db3b0a3263337576f0667b60a07e531bd3235004aa43a2ea06409a4ad2bad41d7d7#npm:3.2.4", {\
+        "packageLocation": "./.yarn/__virtual__/nunjucks-virtual-0cf9d2f7ba/3/C:/Users/62787/AppData/Local/Yarn/Berry/cache/nunjucks-npm-3.2.4-c2cdc53bf5-10c0.zip/node_modules/nunjucks/",\
         "packageDependencies": [\
           ["@types/chokidar", null],\
           ["a-sync-waterfall", "npm:1.0.1"],\
           ["asap", "npm:2.0.6"],\
           ["chokidar", null],\
           ["commander", "npm:5.1.0"],\
-          ["nunjucks", "virtual:ce3afd37351f5276854d63a3f386f66e86c3319ecb6d392e56610b37ecd270be8074a40bec02b0ae48bb0d6462094e8bfe73c851ad77742c1d483ea37b5a222b#npm:3.2.4"]\
+          ["nunjucks", "virtual:8250be04019bfc40f66b588f383e355e1a71108d355102f8c16c195569675db3b0a3263337576f0667b60a07e531bd3235004aa43a2ea06409a4ad2bad41d7d7#npm:3.2.4"]\
         ],\
         "packagePeers": [\
           "@types/chokidar",\
