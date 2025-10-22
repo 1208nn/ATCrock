@@ -53,6 +53,9 @@ importers:
       hexo-util:
         specifier: ^3.3.0
         version: 3.3.0
+      picocolors:
+        specifier: ^1.1.1
+        version: 1.1.1
 
 packages:
 
