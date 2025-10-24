@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Welcome M19 blog
+subtitle: HELLO
+description: "一个简单的博客，里面啥都会发"
 keywords:
-author: John Doe
-language: en
+author:"R1ceWine"
+language: zh-cn
 timezone: ''
 
 # URL
