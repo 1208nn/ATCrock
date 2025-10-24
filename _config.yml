@@ -4,10 +4,10 @@
 
 # Site
 title: WELCOME TO MY BLOG
-subtitle: "HELLO"
-description: "一个简单的博客，里面啥都会发"
+subtitle: 'HELLO'
+description: '一个简单的博客，里面啥都会发'
 keywords:
-author:"RiceWine"
+author: RiceWine
 language: zh
 timezone: ''
 
