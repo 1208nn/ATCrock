@@ -5,8 +5,6 @@ tags: jhlt
 category: tech
 ---
 
-# 如何在docker和本地环境运行jh论坛
-
 ## docker&本地环境
 
 用`idea/vs`打开项目，先修改`application.yml`（那些账号密码什么的都换一下），然后在终端里面输入`docker compose up`（记得打开`docker`），然后等待项目挂起就行。挂起后，在本地运行论坛即可
