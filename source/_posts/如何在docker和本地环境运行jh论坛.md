@@ -43,20 +43,17 @@ category: tech
 
 (该处原为`nacos:nacos-config-application-example.properties`，需要改掉文件名)
 
-```
+```yml
 spring:
-```
-
-```
-config:
-  import: "nacos:nacos-config-application.properties?refresh=true"
+  config:
+    import: "nacos:nacos-config-application.properties?refresh=true"
 ```
 
 2.源的`cube`和`user-center`配置是空的（在配置的最下面），需要相应配置请联系论坛开发人员
 
 3.由于**~~不知名~~原因**，需要把配置`dubbo`里面`protocol`的`tri`改成`dubbo`协议，这样`dubbo`才能正常连接
 
-```
+```yml
 dubbo:
   protocol:
     name: tri->dubbo
